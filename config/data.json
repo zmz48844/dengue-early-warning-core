@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "regions": [
+    "\u5e7f\u4e1c",
+    "\u4e91\u5357",
+    "\u798f\u5efa",
+    "\u5e7f\u897f",
+    "\u6d59\u6c5f",
+    "\u6d77\u5357"
+  ],
+  "study_start_year": 2005,
+  "test_start_year": 2019,
+  "study_end_year": 2023,
+  "label_method": "wt_rc",
+  "wt_si_mean_days": 18.2,
+  "wt_si_sd_days": 6.1,
+  "wt_max_lag_weeks": 8,
+  "wt_imported_infectious_weight": 0.5,
+  "wt_rc_threshold": 1,
+  "wt_rc_window_weeks": 1,
+  "wt_min_source_cases_window": 1,
+  "wt_min_signal_run_weeks": 4,
+  "wt_exclude_right_censored_weeks": 8,
+  "window_size": 1,
+  "horizon_weeks": 12,
+  "stage2_case_activity_window_weeks": 13,
+  "gate_case_activity_window_weeks": 13,
+  "feature_count": 47,
+  "excluded_feature": "local_cases_4w_linear_slope",
+  "expected_development": {
+    "cities": 86,
+    "city_years": 1204,
+    "events": 36,
+    "weeks": 61067,
+    "exact_rows": 468
+  },
+  "expected_test": {
+    "cities": 86,
+    "city_years": 430,
+    "events": 35,
+    "weeks": 21611,
+    "exact_rows": 455
+  }
+}
